@@ -1,2 +1,2 @@
-import pywhatkit as pw
-pw.sendwhatmsg("phoneno.","hello",18,32)
+import pywhatkit
+pywhatkit.sendwhatmsg("+918054620388","This is a message",15,11)
