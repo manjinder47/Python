@@ -16,8 +16,8 @@ while True:
         f.write("\n")
     except:
         print("Sorry, I can't your answer your Question")
-        i = input("If you want to ask more Questions Enter Y: ")
-        if(i != 'y' and i != 'Y'):
+        i = input("If you want to ask more Questions Enter Y: ").lower()
+        if(i != 'y'):
              break
 print("Thank You!")
 f.close()
