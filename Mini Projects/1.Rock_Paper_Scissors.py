@@ -27,7 +27,8 @@ scissors = '''
 ---.__(___)
 '''
 game_images = [rock, paper, scissors]
-
+for item in range(3):
+  print(game_images[item])
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 print(game_images[user_choice])
 
@@ -47,4 +48,3 @@ elif user_choice > computer_choice:
   print("You win!")
 elif computer_choice == user_choice:
   print("It's a draw")
-0
