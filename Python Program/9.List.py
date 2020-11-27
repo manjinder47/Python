@@ -8,7 +8,7 @@
 # print(numbers)
 
 tp = (1,2,4,5)
-# print(tp)
+
 
 a=5
 b=7
